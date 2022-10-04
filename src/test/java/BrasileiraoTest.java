@@ -6,8 +6,8 @@ class BrasileiraoTest {
 
     @Test
     public void deveRetornarNomedoTime() {
-        Brasileirao.getInstance().setTimesCadastrados("Vascão");
-        assertEquals("Vascão", Brasileirao.getInstance().getTimesCadastrados());
+        Brasileirao.getInstance().setTime("Vascão");
+        assertEquals("Vascão", Brasileirao.getInstance().getTime());
     }
     @Test
     public void deveRetornarClassificacao() {

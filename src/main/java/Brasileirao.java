@@ -6,9 +6,17 @@ public class Brasileirao {
         return instance;
     }
 
-    private String TimesCadastrados;
+    private String Time;
     private Integer Classificacao;
     private Integer Pontuacao;
+
+    public String getTime() {
+        return Time;
+    }
+
+    public void setTime(String time) {
+        Time = time;
+    }
 
     public Integer getClassificacao() {
         return Classificacao;
@@ -26,11 +34,7 @@ public class Brasileirao {
         Pontuacao = pontuacao;
     }
 
-    public String getTimesCadastrados() {
-        return TimesCadastrados;
-    }
-
-    public void setTimesCadastrados(String timesCadastrados) {
-        TimesCadastrados = timesCadastrados;
+    public static void setInstance(Brasileirao instance) {
+        Brasileirao.instance = instance;
     }
 }
