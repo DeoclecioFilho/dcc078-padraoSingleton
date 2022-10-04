@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52ab9f30-8083-42d8-90e0-8f97025f831e" name="Changes" comment="Criado o teste" />
+    <list default="true" id="52ab9f30-8083-42d8-90e0-8f97025f831e" name="Changes" comment="Criado o teste">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Brasileirao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brasileirao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -62,6 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BrasileiraoTest.deveRetornarClassificacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-pradraoSingleton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BrasileiraoTest" />
+      <option name="METHOD_NAME" value="deveRetornarClassificacao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BrasileiraoTest.deveRetornarNomedoTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dcc078-pradraoSingleton" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BrasileiraoTest" />
+        <item itemvalue="JUnit.BrasileiraoTest.deveRetornarClassificacao" />
         <item itemvalue="JUnit.BrasileiraoTest.deveRetornarNomedoTime" />
       </list>
     </recent_temporary>

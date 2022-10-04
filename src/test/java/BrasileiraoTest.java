@@ -9,5 +9,15 @@ class BrasileiraoTest {
         Brasileirao.getInstance().setTimesCadastrados("Vascão");
         assertEquals("Vascão", Brasileirao.getInstance().getTimesCadastrados());
     }
+    @Test
+    public void deveRetornarClassificacao() {
+        Brasileirao.getInstance().setClassificacao(4);
+        assertEquals(4, Brasileirao.getInstance().getClassificacao());
+    }
+    @Test
+    public void deveRetornarPontuacao() {
+        Brasileirao.getInstance().setPontuacao(49);
+        assertEquals(49, Brasileirao.getInstance().getPontuacao());
+    }
 
 }

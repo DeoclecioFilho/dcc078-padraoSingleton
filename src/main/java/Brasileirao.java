@@ -7,8 +7,24 @@ public class Brasileirao {
     }
 
     private String TimesCadastrados;
+    private Integer Classificacao;
+    private Integer Pontuacao;
 
+    public Integer getClassificacao() {
+        return Classificacao;
+    }
 
+    public void setClassificacao(Integer classificacao) {
+        Classificacao = classificacao;
+    }
+
+    public Integer getPontuacao() {
+        return Pontuacao;
+    }
+
+    public void setPontuacao(Integer pontuacao) {
+        Pontuacao = pontuacao;
+    }
 
     public String getTimesCadastrados() {
         return TimesCadastrados;
